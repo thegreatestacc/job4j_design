@@ -6,10 +6,19 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="job4j_design" />
+        <module name="chapter_001" />
+        <module name="chapter_002" />
+        <module name="chapter_003" />
+        <module name="chapter_004" />
+        <module name="chapter_005" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="chapter_001" target="14" />
+      <module name="chapter_002" target="14" />
+      <module name="chapter_003" target="14" />
+      <module name="chapter_004" target="14" />
+      <module name="chapter_005" target="14" />
       <module name="job4j_design" target="14" />
     </bytecodeTargetLevel>
   </component>
