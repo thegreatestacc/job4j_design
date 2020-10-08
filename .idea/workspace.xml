@@ -1,7 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="aeaa98b3-f1ec-492b-818f-aa4c7ac7c221" name="Default Changelist" comment="" />
+    <list default="true" id="aeaa98b3-f1ec-492b-818f-aa4c7ac7c221" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/chapter_001/src/main/java/ru/job4j/it/BackwardArrayIt.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/chapter_001/src/test/java/ru/job4j/it/BackwardArrayItTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/chapter_001/chapter_001.iml" beforeDir="false" afterPath="$PROJECT_DIR$/chapter_001/chapter_001.iml" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/src/main/java/target/" />
     <ignored path="$PROJECT_DIR$/chapter_001/target/" />
@@ -18,53 +23,50 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
+        <entry file="file://$PROJECT_DIR$/chapter_001/src/main/java/ru/job4j/it/BackwardArrayIt.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="391">
+            <state relative-caret-position="374">
               <caret line="23" selection-start-line="23" selection-end-line="23" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/ru/job4j/App.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="154">
-              <caret line="7" column="43" selection-start-line="7" selection-start-column="43" selection-end-line="7" selection-end-column="43" />
               <folding>
-                <element signature="e#159#160#0" expanded="true" />
+                <element signature="imports" expanded="true" />
+                <element signature="e#198#199#0" expanded="true" />
+                <element signature="e#230#231#0" expanded="true" />
+                <element signature="e#144#145#0" expanded="true" />
+                <element signature="e#172#173#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/ru/job4j/AppTest.java">
+        <entry file="file://$PROJECT_DIR$/chapter_001/src/test/java/ru/job4j/it/BackwardArrayItTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="351">
-              <caret line="23" column="42" lean-forward="true" selection-start-line="23" selection-start-column="42" selection-end-line="23" selection-end-column="42" />
+            <state relative-caret-position="435">
+              <caret line="25" selection-start-line="25" selection-end-line="25" />
               <folding>
-                <element signature="e#325#326#0" expanded="true" />
-                <element signature="e#358#359#0" expanded="true" />
-                <element signature="e#453#454#0" expanded="true" />
-                <element signature="e#506#507#0" expanded="true" />
-                <element signature="e#576#577#0" expanded="true" />
-                <element signature="e#611#612#0" expanded="true" />
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/.travis.yml">
+        <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12.jar!/org/junit/internal/runners/model/ReflectiveCallable.class">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="431">
-              <caret line="23" column="57" selection-start-line="23" selection-start-column="57" selection-end-line="23" selection-end-column="57" />
+            <state relative-caret-position="308">
+              <caret line="17" selection-start-line="17" selection-end-line="17" />
             </state>
           </provider>
         </entry>
       </file>
     </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -77,6 +79,9 @@
         <option value="$PROJECT_DIR$/src/main/java/ru/job4j/App.java" />
         <option value="$PROJECT_DIR$/src/test/java/ru/job4j/AppTest.java" />
         <option value="$PROJECT_DIR$/.travis.yml" />
+        <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/chapter_001/src/test/java/ru/job4j/it/BackwardArrayItTest.java" />
+        <option value="$PROJECT_DIR$/chapter_001/src/main/java/ru/job4j/it/BackwardArrayIt.java" />
       </list>
     </option>
   </component>
@@ -114,6 +119,43 @@
             <path>
               <item name="job4j_design" type="b2602c69:ProjectViewProjectNode" />
               <item name="job4j_design" type="462c0819:PsiDirectoryNode" />
+              <item name="chapter_001" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="job4j_design" type="b2602c69:ProjectViewProjectNode" />
+              <item name="job4j_design" type="462c0819:PsiDirectoryNode" />
+              <item name="chapter_001" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="job4j_design" type="b2602c69:ProjectViewProjectNode" />
+              <item name="job4j_design" type="462c0819:PsiDirectoryNode" />
+              <item name="chapter_001" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="job4j_design" type="b2602c69:ProjectViewProjectNode" />
+              <item name="job4j_design" type="462c0819:PsiDirectoryNode" />
+              <item name="chapter_001" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="it" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="job4j_design" type="b2602c69:ProjectViewProjectNode" />
+              <item name="job4j_design" type="462c0819:PsiDirectoryNode" />
+              <item name="chapter_001" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="job4j_design" type="b2602c69:ProjectViewProjectNode" />
+              <item name="job4j_design" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -126,7 +168,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1602156973795" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1602158355448" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../job4j/checkstyle.xml" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -147,6 +189,45 @@
       </list>
     </option>
   </component>
+  <component name="RunManager" selected="JUnit.BackwardArrayItTest">
+    <configuration name="BackwardArrayItTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="chapter_001" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ru.job4j.it.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ru.job4j.it" />
+      <option name="MAIN_CLASS_NAME" value="ru.job4j.it.BackwardArrayItTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BackwardArrayItTest.whenReadSequence" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="chapter_001" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ru.job4j.it.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ru.job4j.it" />
+      <option name="MAIN_CLASS_NAME" value="ru.job4j.it.BackwardArrayItTest" />
+      <option name="METHOD_NAME" value="whenReadSequence" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.BackwardArrayItTest" />
+        <item itemvalue="JUnit.BackwardArrayItTest.whenReadSequence" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -159,7 +240,7 @@
       <updated>1602153756779</updated>
       <workItem from="1602153759340" duration="1336000" />
       <workItem from="1602155128434" duration="676000" />
-      <workItem from="1602155835916" duration="1027000" />
+      <workItem from="1602155835916" duration="2431000" />
     </task>
     <task id="LOCAL-00001" summary="checkstyle changes">
       <created>1602156290421</created>
@@ -178,11 +259,43 @@
     <option name="localTasksCounter" value="3" />
     <servers />
   </component>
+  <component name="TestHistory">
+    <history-entry file="BackwardArrayItTest_whenReadSequence - 2020.10.08 at 14h 53m 31s.xml">
+      <configuration name="BackwardArrayItTest.whenReadSequence" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="BackwardArrayItTest_whenReadSequence - 2020.10.08 at 14h 53m 44s.xml">
+      <configuration name="BackwardArrayItTest.whenReadSequence" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="BackwardArrayItTest_whenReadSequence - 2020.10.08 at 14h 53m 50s.xml">
+      <configuration name="BackwardArrayItTest.whenReadSequence" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="BackwardArrayItTest_whenReadSequence - 2020.10.08 at 14h 53m 59s.xml">
+      <configuration name="BackwardArrayItTest.whenReadSequence" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="BackwardArrayItTest_whenReadSequence - 2020.10.08 at 14h 54m 55s.xml">
+      <configuration name="BackwardArrayItTest.whenReadSequence" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="BackwardArrayItTest_whenReadSequence - 2020.10.08 at 14h 57m 48s.xml">
+      <configuration name="BackwardArrayItTest.whenReadSequence" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="BackwardArrayItTest_whenReadSequence - 2020.10.08 at 14h 58m 18s.xml">
+      <configuration name="BackwardArrayItTest.whenReadSequence" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="BackwardArrayItTest_whenReadSequence - 2020.10.08 at 14h 58m 34s.xml">
+      <configuration name="BackwardArrayItTest.whenReadSequence" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="BackwardArrayItTest_whenReadSequence - 2020.10.08 at 14h 58m 47s.xml">
+      <configuration name="BackwardArrayItTest.whenReadSequence" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="BackwardArrayItTest_whenReadSequence - 2020.10.08 at 14h 58m 55s.xml">
+      <configuration name="BackwardArrayItTest.whenReadSequence" configurationId="JUnit" />
+    </history-entry>
+  </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3039000" />
+    <option name="totallyTimeSpent" value="4443000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2553305" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -193,14 +306,15 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info id="simpleUML" order="7" />
       <window_info anchor="bottom" id="CheckStyle" weight="0.32936078" />
+      <window_info anchor="bottom" id="Messages" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32936078" />
+      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.3997833" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.33802816" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.33802816" />
       <window_info anchor="bottom" id="Docker" order="8" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="bottom" id="Database Changes" order="10" />
@@ -224,6 +338,18 @@
     <MESSAGE value="checkstyle changes" />
     <MESSAGE value="added travis" />
     <option name="LAST_COMMIT_MESSAGE" value="added travis" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/chapter_001/src/main/java/ru/job4j/it/BackwardArrayIt.java</url>
+          <line>20</line>
+          <properties />
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="com.vaadin.designer2.intellij.settings.SizePresetsSettingsComponent">
     <option name="sizePresets">
@@ -266,20 +392,20 @@
     <entry file="file://$PROJECT_DIR$/chapter_001/pom.xml">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="391">
-          <caret line="23" selection-start-line="23" selection-end-line="23" />
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="198">
+            <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ru/job4j/App.java">
+    <entry file="file://$PROJECT_DIR$/.travis.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="7" column="43" selection-start-line="7" selection-start-column="43" selection-end-line="7" selection-end-column="43" />
-          <folding>
-            <element signature="e#159#160#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="431">
+          <caret line="23" column="57" selection-start-line="23" selection-start-column="57" selection-end-line="23" selection-end-column="57" />
         </state>
       </provider>
     </entry>
@@ -298,10 +424,51 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.travis.yml">
+    <entry file="file://$PROJECT_DIR$/src/main/java/ru/job4j/App.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="431">
-          <caret line="23" column="57" selection-start-line="23" selection-start-column="57" selection-end-line="23" selection-end-column="57" />
+        <state relative-caret-position="154">
+          <caret line="7" column="43" selection-start-line="7" selection-start-column="43" selection-end-line="7" selection-end-column="43" />
+          <folding>
+            <element signature="e#158#159#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="23" selection-start-line="23" selection-end-line="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chapter_001/src/main/java/ru/job4j/it/BackwardArrayIt.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="23" selection-start-line="23" selection-end-line="23" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#198#199#0" expanded="true" />
+            <element signature="e#230#231#0" expanded="true" />
+            <element signature="e#144#145#0" expanded="true" />
+            <element signature="e#172#173#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chapter_001/src/test/java/ru/job4j/it/BackwardArrayItTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="435">
+          <caret line="25" selection-start-line="25" selection-end-line="25" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/junit/junit/4.12/junit-4.12.jar!/org/junit/internal/runners/model/ReflectiveCallable.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="308">
+          <caret line="17" selection-start-line="17" selection-end-line="17" />
         </state>
       </provider>
     </entry>
