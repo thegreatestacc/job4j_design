@@ -7,6 +7,12 @@ public class User {
     private int children;
     private Calendar birthday;
 
+    public User(String name, int children, Calendar birthday) {
+        this.name = name;
+        this.children = children;
+        this.birthday = birthday;
+    }
+
     public String getName() {
         return name;
     }
@@ -29,5 +35,14 @@ public class User {
 
     public void setBirthday(Calendar birthday) {
         this.birthday = birthday;
+    }
+
+    @Override
+    public String toString() {
+        return "User{"
+               + "name='" + name + '\''
+               + ", children=" + children
+               + ", birthday=" + birthday
+               + '}';
     }
 }
