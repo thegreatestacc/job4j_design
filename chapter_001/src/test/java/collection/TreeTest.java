@@ -1,7 +1,7 @@
 package collection;
 
 import org.junit.Test;
-import ru.job4j.collection.Tree;
+import ru.job4j.tree.Tree;
 
 import static org.hamcrest.core.Is.is;
 import static org.junit.Assert.assertThat;
