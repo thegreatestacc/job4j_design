@@ -1,8 +1,9 @@
-package ru.job4j.collection;
+package ru.job4j.tree;
 
 import java.util.LinkedList;
 import java.util.Optional;
 import java.util.Queue;
+import java.util.function.Predicate;
 
 public class Tree<E> implements SimpleTree<E> {
 
@@ -24,6 +25,25 @@ public class Tree<E> implements SimpleTree<E> {
         }
         par.get().children.add(new Node<>(child));
         return true;
+    }
+
+    public boolean isBinary() {
+        return findElement(i -> i.children.size() > 2).isEmpty();
+    }
+
+    public Optional<Node<E>> findElement(Predicate<Node<E>> predicate) {
+        Optional<Node<E>> result = Optional.empty();
+        Queue<Node<E>> data = new LinkedList<>();
+        data.offer(this.root);
+        while (!data.isEmpty()) {
+            Node<E> element = data.poll();
+            if (predicate.test(element)) {
+                result = Optional.of(element);
+                break;
+            }
+            data.addAll(element.children);
+        }
+        return result;
     }
 
     @Override
