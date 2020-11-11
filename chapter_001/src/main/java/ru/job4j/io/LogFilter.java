@@ -8,7 +8,7 @@ public class LogFilter {
     public static List<String> filter(String file) {
         List<String> lines = new ArrayList<>();
         List<String> result = new ArrayList<>();
-        try (BufferedReader br = new BufferedReader(new FileReader("log.txt"))) {
+        try (BufferedReader br = new BufferedReader(new FileReader(file))) {
             br.lines().forEach(lines::add);
             for (String str : lines) {
                 String[] split = str.split(" ");
@@ -24,7 +24,7 @@ public class LogFilter {
 
     public static void save(List<String> log, String file) {
         try (PrintWriter out = new PrintWriter(
-                new BufferedOutputStream(new FileOutputStream("result.txt")
+                new BufferedOutputStream(new FileOutputStream(file)
                 ))) {
             for (String str : log) {
                 out.write(str + "\n");
