@@ -17,17 +17,24 @@ public class Config {
         try (BufferedReader br = new BufferedReader(new FileReader("app.properties"))) {
             br.lines().forEach(list::add);
             for (String str : list) {
-                String[] split = str.split("=");
-                values.put(split[0], split[1]);
+                if (str.contains("=") ) {
+                    String[] split = str.split("=");
+                    values.put(split[0], split[1]);
+                }
             }
-            System.out.println(values.size());
         } catch (Exception e) {
             e.printStackTrace();
         }
     }
 
     public String value(String key) {
-        throw new UnsupportedOperationException("Don't impl this method yet!");
+        String result = "";
+        for (Map.Entry<String, String> item : values.entrySet()) {
+            if (item.getKey().equals(key)) {
+                result = item.getValue();
+            }
+        }
+        return result;
     }
 
     @Override
@@ -42,7 +49,10 @@ public class Config {
     }
 
     public static void main(String[] args) {
-        new Config("app.properties").load();
+        Config config = new Config("app.properties");
+        config.load();
+        System.out.println(config.value("hibernate.connection.driver_class"));
+
         //System.out.println(new Config("app.properties"));
     }
 }
