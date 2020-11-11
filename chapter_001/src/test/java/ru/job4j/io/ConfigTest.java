@@ -13,4 +13,12 @@ public class ConfigTest {
         config.load();
         assertThat(config.value("name"), is("Petr Arsentev"));
     }
+
+    @Test
+    public void whenHaveKey() {
+        String path = "C:\\Users\\ARENA\\Desktop\\job4j\\job4j_design\\app.properties";
+        Config config = new Config(path);
+        config.load();
+        assertThat(config.value("hibernate.connection.driver_class"), is("org.postgresql.Driver"));
+    }
 }
