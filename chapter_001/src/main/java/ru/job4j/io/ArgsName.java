@@ -11,13 +11,14 @@ public class ArgsName {
     }
 
     private void parse(String[] args) {
+        if (args.length == 0) {
+            throw new IllegalArgumentException();
+        }
         for (String str : args) {
-            String[] split = str.split("=");
-            StringBuilder sb = new StringBuilder(split[0]);
-            sb.deleteCharAt(0);
-            if (split.length > 1) {
-                values.put(sb.toString(), split[1]);
-            } else values.put(split[0], "");
+            if (str.charAt(0) != '-' || !str.contains("=")) {
+                throw new IllegalArgumentException();
+            }
+            values.put(str.split("=")[0].substring(1), str.split("=")[1]);
         }
     }
 
