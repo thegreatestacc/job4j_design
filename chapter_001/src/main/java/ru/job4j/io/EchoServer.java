@@ -24,11 +24,20 @@ public class EchoServer {
                     String s = inputList.get(0);
                     if (s.contains("=")) {
                         String[] strings = s.split(" ");
-                        if (strings[1].equals("/?msg=Bye")) {
+                        if (strings[1].equals("/?msg=Exit")) {
+                            out.write("HTTP/1.1 200 OK\r\n\r\n".getBytes());
+                            out.write("Exit.".getBytes());
                             server.close();
                         }
+                        if (strings[1].equals("/?msg=Hello")) {
+                            out.write("HTTP/1.1 200 OK\r\n\r\n".getBytes());
+                            out.write("Hello, dear friend.".getBytes());
+                        }
+                        if (!(strings[1].equals("/?msg=Exit")) && !(strings[1].equals("/?msg=Hello"))) {
+                            out.write("HTTP/1.1 200 OK\r\n\r\n".getBytes());
+                            out.write("What?".getBytes());
+                        }
                     }
-                    out.write("HTTP/1.1 200 OK \r\n\\".getBytes());
                 }
             }
         }
