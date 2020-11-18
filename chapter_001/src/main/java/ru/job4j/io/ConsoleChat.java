@@ -1,6 +1,8 @@
 package ru.job4j.io;
 
 import java.io.*;
+import java.nio.charset.Charset;
+import java.nio.charset.StandardCharsets;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Scanner;
@@ -61,9 +63,9 @@ public class ConsoleChat {
     // write dialog between user and bot
     public void output() {
         String log = "C:\\Users\\ARENA\\Desktop\\job4j\\job4j_design\\chapter_001\\src\\main\\java\\ru\\job4j\\data\\chatLog.txt";
-        try (PrintWriter pw = new PrintWriter(new BufferedOutputStream(new FileOutputStream(log)))) {
+        try (BufferedWriter bw = new BufferedWriter(new FileWriter(log, StandardCharsets.UTF_8, true))) {
             for (String str : chatDialogList) {
-                pw.write(str + System.lineSeparator());
+                bw.write(str + System.lineSeparator());
             }
         } catch (Exception e) {
             e.printStackTrace();
