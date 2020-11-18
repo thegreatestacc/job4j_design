@@ -12,6 +12,14 @@ public class Pet implements Serializable {
         this.age = age;
     }
 
+    public String getName() {
+        return name;
+    }
+
+    public int getAge() {
+        return age;
+    }
+
     @Override
     public boolean equals(Object o) {
         if (this == o) return true;

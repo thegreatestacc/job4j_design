@@ -21,7 +21,29 @@ public class Person implements Serializable {
         this.pets = pets;
     }
 
+    public int getAge() {
+        return age;
+    }
 
+    public boolean isSex() {
+        return sex;
+    }
+
+    public String getFirstName() {
+        return firstName;
+    }
+
+    public String getLastName() {
+        return lastName;
+    }
+
+    public Address getAddress() {
+        return address;
+    }
+
+    public Pet[] getPets() {
+        return pets;
+    }
 
     @Override
     public boolean equals(Object o) {
