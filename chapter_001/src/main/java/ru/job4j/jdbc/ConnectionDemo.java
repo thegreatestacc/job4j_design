@@ -16,7 +16,7 @@ public class ConnectionDemo {
     public static Map<String, String> getApplicationProperties() {
         Map<String, String> result = new HashMap<>();
         List<String> list = new ArrayList<>();
-        String path = "C:\\Users\\ARENA\\Desktop\\job4j\\job4j_design\\chapter_001\\src\\main\\resources\\app.properties";
+        String path = "chapter_001/src/main/resources/app.properties";
         try (BufferedReader br = new BufferedReader(new FileReader(path))) {
             br.lines().forEach(list::add);
             for (String str : list) {
