@@ -3,6 +3,12 @@ language: java
 jdk:
   - openjdk14
 
+services:
+  - postgresql
+
+before_install:
+  - psql -c 'create database tracker;' -U postgres
+
 # используем режим обычного пользователя для сборки проекта.
 sudo: false
 
@@ -17,7 +23,7 @@ notifications:
     recipients:
       -sovliv@yandex.ru
     on_success: never # default: change
-    on_failure: always # defa,ult: always
+    on_failure: always # default: always
 
 env:
   global:
