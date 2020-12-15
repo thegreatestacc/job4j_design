@@ -23,8 +23,8 @@ public class ImportDB {
     public List<User> load() throws Exception {
         List<User> users = new ArrayList<>();
         try (BufferedReader br = new BufferedReader(new FileReader(dump))) {
-            br.lines().forEach(i -> users.add(new User(i.substring(0, i.indexOf(";")),
-                    i.substring(i.indexOf(";") + 1))));
+            br.lines().map(i -> i.split(";"))
+                    .forEach(i -> users.add(new User(i[0], i[1])));
         }
         return users;
     }
